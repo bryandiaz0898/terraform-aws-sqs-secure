@@ -6,7 +6,7 @@ This module creates a secure SQS queue with an optional Dead Letter Queue (DLQ) 
 
 ```hcl
 module "sqs_secure" {
-  source = "terraform-aws-sqs-secure"
+  source = "app.terraform.io/<your-org-name>/sqs-secure/aws"
   version = "~> 1.0.0"
   queue_name_prefix = "my-queue"
   enable_dlq = true
