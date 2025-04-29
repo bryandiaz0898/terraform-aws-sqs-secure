@@ -29,3 +29,5 @@ resource "aws_sqs_queue" "main" {
   tags = var.tags
   # Consider adding other queue attributes like visibility_timeout_seconds
 }
+
+## testing
